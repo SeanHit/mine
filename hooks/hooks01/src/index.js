@@ -7,7 +7,8 @@ import Context from "./Context";
 import Reducer from "./Reducer";
 import MockRedux from "./mockRedux";
 import Memo from "./Memo";
+import Ref from './Ref';
 ReactDOM.render(
-  <Memo />,
+  <Ref />,
   document.getElementById('root')
 );
