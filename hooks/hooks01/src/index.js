@@ -9,6 +9,6 @@ import MockRedux from "./mockRedux";
 import Memo from "./Memo";
 import Ref from './Ref';
 ReactDOM.render(
-  <Ref />,
+  <Effect />,
   document.getElementById('root')
 );

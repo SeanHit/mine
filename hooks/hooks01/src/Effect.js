@@ -26,7 +26,15 @@ export default function Effect() {
         return () => {
             console.log('===============');
         }
-    }, [count])
+    }, [])
+
+    if (count !== 2) {
+        setTimeout(() => {
+            setCount(2)
+        }, 1000)
+
+    }
+
     return (
         <div>
             <p>{count}</p>
