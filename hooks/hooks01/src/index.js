@@ -8,7 +8,8 @@ import Reducer from "./Reducer";
 import MockRedux from "./mockRedux";
 import Memo from "./Memo";
 import Ref from './Ref';
+import CustomHooks from './CustomHooks';
 ReactDOM.render(
-  <Effect />,
+  <CustomHooks />,
   document.getElementById('root')
 );
